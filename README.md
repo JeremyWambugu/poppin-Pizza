@@ -10,8 +10,8 @@ _A sample pizza ordering website which allows the user to choose a pizza size an
 
 | Behavior | Input Example | Output Example |
 |----------|---------------|----------------|
-| Pizza size is submitted and a base cost is displayed | large pizza | $20 |
-| Toppings are selected and added to the base cost before displaying | large pizza with pineapple | Total due: $22 |
+| Pizza size is submitted and a base cost is displayed | large pizza | 1000ksh |
+| Toppings are selected and added to the base cost before displaying | large pizza with pineapple | Total due: 1200ksh |
 | Multiple pizzas can be ordered and added to the total cost | large pizza with pepperoni, small pizza with mushrooms and olives | Pizza 1: $22, Pizza 2: $16, Total due: $38 |
 
 ## Setup/Installation Requirements
