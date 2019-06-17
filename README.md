@@ -1,6 +1,5 @@
 # Order Pizza
 
-#### _A pizza ordering website, 1/27/2017_
 
 #### By Jeremy Wambugu
 
@@ -12,9 +11,8 @@ _A sample pizza ordering website which allows the user to choose a pizza size an
 
 | Behavior | Input Example | Output Example |
 |----------|---------------|----------------|
-| Pizza size is submitted and a base cost is displayed | large pizza | $20 |
-| Toppings are selected and added to the base cost before displaying | large pizza with pineapple | Total due: $22 |
-| Multiple pizzas can be ordered and added to the total cost | large pizza with pepperoni, small pizza with mushrooms and olives | Pizza 1: $22, Pizza 2: $16, Total due: $38 |
+| Pizza size is submitted and a base cost is displayed 
+| Multiple pizzas can be ordered and added to the total cost 
 
 ## Setup/Installation Requirements
 
@@ -31,7 +29,7 @@ _Written using Git Bash, VisualStudio, Bootstrap and jQuery._
 
 ### MIT License
 
-_Copyright (c) 2017 Maggie Harrington
+_Copyright (c) Jeremy Wambugu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
