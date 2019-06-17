@@ -1,7 +1,5 @@
 # Order Pizza
 
-#### _A pizza ordering website, 1/27/2017_
-
 #### By Jeremy Wambugu
 
 ## Description
