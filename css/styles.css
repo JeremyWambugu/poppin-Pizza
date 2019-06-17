@@ -45,4 +45,11 @@ body {
   .gif1{
       height:300px;
       float: right;
+    
+  }
+  .gif2{
+      margin-left: 650px;
+  }
+  .enjoy{
+      text-align: center;   
   }
