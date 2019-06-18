@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script> 
     <title>Order Pizza</title>
@@ -11,14 +12,14 @@
   <body>
     <div class="container">
       <h1>Popin Pizza!</h1>
-      <p>standard pizza contains a standard sauce and cheese.</p>
-
-      <div  class="sizes">
+      <p class="standard">Standard pizza contains a standard sauce and cheese.</p>
       <form id="pizza-choices">
-        <div class="new-pizza col-md-4" id="pizza1">
+        <div class="new-pizza " id="pizza1">
           <div class="radio" id="select-size">
             <span id="appendNumber"></span>
-            <h3>Select pizza size:</h3>
+            <h3 class="select" >Select pizza size:</h3>
+
+            <div class="size">
             <label>
               <input type="radio" name="pizza-size" value="20" checked>
               large (1000)
@@ -36,10 +37,8 @@
             <br>
           </div>
           </div>
-          <img class="gif1" src="https://media.giphy.com/media/3oz8xH46dD1DSx3vNK/giphy.gif" alt="">    
 
-          
-
+          <div class="form-group" id="select-toppings">
             <h3>Select toppings:</h3>
             <input type="checkbox" name="pizza-toppings" value="1"> mushrooms (100)<br>
             <input type="checkbox" name="pizza-toppings" value="1"> olives (100)<br>
@@ -53,6 +52,14 @@
             <input type="checkbox" name="pizza-toppings" value="3"> avocado (200)<br>
           </div>
         </div>
+        <div class="form-crusts" id="select-crusts">
+          <div class="crusts">
+          <h3> Crusts</h3>
+          <input type="checkbox" name="pizza-toppings" value="1"> mushrooms (100)<br>
+            <input type="checkbox" name="pizza-toppings" value="1"> olives (100)<br>
+            <input type="checkbox" name="pizza-toppings" value="2"> pineapple (200)<br>
+        </div>
+        </div>
 
         <div id="new-pizzas">
         </div>
@@ -65,13 +72,9 @@
         </div>
 
       </form>
-      
 
       <div class="col-md-12" id="display-cost">
-
       </div>
     </div>
-    <img class="gif2" src="https://media.giphy.com/media/OJ8hVSLYbpQ08/giphy.gif" alt="">
-      <p class="enjoy" > Enjoy your pizza!</p>
   </body>
 </html>
